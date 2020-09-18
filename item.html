@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800&display=swap&subset=cyrillic"
+          rel="stylesheet">
+    <title>Карточка товара</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="header-fix">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo" class="logo-img" />
+                    </a>
+                </div>
+                <nav class="header-nav">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class="menu-btn" for="menu-toggle">
+                        <span></span>
+                    </label>
+                    <ul id="nav" class="nav-menu">
+                        <li class="menu-item">
+                            <a href="index.html" class="menu-link">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="menu.html" class="menu-link">
+                                Меню
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="bonus.html" class="menu-link">
+                                Бонусная программа
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="reviews.html" class="menu-link">
+                                Отзывы
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="contacts.html" class="menu-link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="time-date">
+                    <i class="time-date-icon"></i>
+                    <div class="text">24/7</div>
+                </div>
+                <div class="cart">
+                    <a href="#">
+                        <i class="cart-icon"></i>
+                        <div class="text">0 (0 ₽)</div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="product">
+        <div class="container">
+            <div class="row">
+                <div class="product-photo">
+                    <img src="img/main-photo.jpg" alt="Шашлык из свинины" />
+                </div>
+                <div class="info">
+                    <h1>Шашлык из свинины</h1>
+                    <div class="text">Шашлык из свинины, приготовленный на гриле. Подаётся с гарниром на выбор,
+                        овощным салатом и соусом.</div>
+                    <div class="price-block">
+                        <div class="price">489 ₽</div>
+                        <div class="input-group quantity_goods">
+                            <input type="button" value="-" id="button_minus" />
+                            <input type="text" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty" />
+                            <input type="button" value="+" id="button_plus" />
+                        </div>
+                        <a href="#">
+                            <div class="btn">В корзину</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="catalog">
+        <div class="container">
+            <h3>Добавить к этому блюду</h3>
+            <div class="main-items">
+                <div class="block">
+                    <div class="item">
+                    <a href="item.html"><img src="img/photo-item-add-1.jpg" alt="фото" /></a>
+                    <h3><a href="item.html">Аджапсандал</a></h3>
+                    <div class="row">
+                        <div class="text">
+                            <div class="price">
+                                162,50 ₽
+                            </div>
+                            <div class="info">Цена за 1 порцию / 250 г.</div>
+                        </div>
+                        <a href="#">
+                            <div class="btn">
+                                + <img src="img/shopping-cart-b.png" alt="В корзину">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div class="block">
+                    <div class="item">
+                    <a href="item.html"><img src="img/photo-item-add-2.jpg" alt="фото" /></a>
+                    <h3><a href="item.html">Картофель</a></h3>
+                    <div class="row">
+                        <div class="text">
+                            <div class="price">
+                                35 ₽
+                            </div>
+                            <div class="info">Цена за 1 порцию / 100 г.</div>
+                        </div>
+                        <a href="#">
+                            <div class="btn">
+                                + <img src="img/shopping-cart-b.png" alt="В корзину">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div class="block">
+                    <div class="item">
+                    <a href="item.html"><img src="img/photo-item-add-3.jpg" alt="фото" /></a>
+                    <h3><a href="item.html">Грибы</a></h3>
+                    <div class="row">
+                        <div class="text">
+                            <div class="price">
+                                75 ₽
+                            </div>
+                            <div class="info">Цена за 1 порцию / 100 г.</div>
+                        </div>
+                        <a href="#">
+                            <div class="btn">
+                                + <img src="img/shopping-cart-b.png" alt="В корзину">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div class="block">
+                    <div class="item">
+                    <a href="item.html"><img src="img/photo-item-s2.jpg" alt="фото" /></a>
+                    <h3><a href="item.html">Соус красный</a></h3>
+                    <div class="row">
+                        <div class="text">
+                            <div class="price">
+                                50 ₽
+                            </div>
+                            <div class="info">Цена за 1 порцию / 200 г.</div>
+                        </div>
+                        <div class="quantity">
+                            <select name="quantity" class="quantity-choice">
+                                <option value="100">100 гр.</option>
+                                <option value="200">200 гр.</option>
+                                <option value="300">300 гр.</option>
+                            </select>
+                        </div>
+                        <a href="#">
+                            <div class="btn">
+                                + <img src="img/shopping-cart-b.png" alt="В корзину">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    Copyright © 2020 Все права защищены.
+</footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/menu.min.js"></script>
+<script src="js/quantity-goods.min.js"></script>
+</body>
+</html>
